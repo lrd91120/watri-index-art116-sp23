@@ -1,0 +1,175 @@
+/*
+Details
+Name: Lillie Davis
+Last Modified: Mar 17
+Submitted to:
+Submitted Time:
+*/
+
+/* Hex code toolbox */
+.yellow {
+    color: #fdd438;
+}
+
+.red {
+    color: #ec5a29;
+}
+
+.blue {
+    color: #2848df;
+}
+
+.teal {
+    color: #68e1c1;
+}
+
+/* Class name toolbox */
+/* "chinese-characters" means formatting for Chinese characters */
+/* "logo" means formatting for the logo at the top */
+/* "nav-bar" refers to the little clickable links across the top of the page */
+/* "red-display" makes content show up in red Aesthico */
+/* "red-title" makes content show up in red Aesthico and larger than the "red-display" class */
+/* "coming-soon" formats the unordered list at the bottom of the index */
+
+/* Helpful YouTube videos I used to... */
+/* Position navigation bar: https://www.youtube.com/watch?v=86nTToBm2uQ */
+/* Set background image: https://www.youtube.com/watch?v=zHZRFwWQt2w */
+
+/* Font-face formatting below */
+/* Font Face Rule for Aesthico */
+@font-face {
+    font-family: 'aesthico';
+    src: url("../fonts/aesthico.ttf");
+    font-style: normal;
+    font-weight: 100;
+}
+
+/* Font Face Rule for HanWangKanTan */
+@font-face {
+    font-family: 'hwkt';
+    src: url("../fonts/han-wang-kan-tan.ttf");
+    font-style: normal;
+    font-weight: 100;
+}
+
+/* Font Face Rule for Work Sans */
+@font-face {
+    font-family: 'work sans';
+    src: url("../fonts/work-sans.ttf");
+    font-style: normal;
+    font-weight: 300;
+}
+
+/* Font Face Rule for Work Sans bold */
+@font-face {
+    font-family: 'work sans bold';
+    src: url("../fonts/work-sans-bold.ttf");
+    font-style: normal;
+    font-weight: 800;
+}
+
+/* Element formatting below */
+/* Body margins set a baseline to keep everything centered unless stated otherwise in a rule below */
+body {
+    margin: 0 auto; /* Shorthand margin for centering */
+    background: #fdd438 url("../images/index-background.png") no-repeat; /* Setting yellow background color and background image */
+    background-size: 1000px; /* Set background size */
+    color: #2848df;
+    font-size: 1em;
+}
+
+/* Header */
+header {
+    font-family: 'work sans', sans-serif;
+    font-weight: 300;
+}
+
+/* Navigation bar */
+.nav-bar {
+    position: absolute;
+    top: 0;
+    padding-top: 57px;
+    padding-left: 473px;
+}
+
+.nav-bar a {
+    color: #ec5a29;
+    text-decoration: none;
+    padding: 20px;
+}
+
+/* Headings */
+h1 {
+    font-family: aesthico;
+    font-size: 3em;
+    padding-top: 380px;
+    padding-left: 50px;
+}
+
+h2 {
+    font-family: aesthico;
+    font-size: 2.4em;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+/* Paragraphs */
+p {
+    font-family: 'work sans', sans-serif;
+    font-size: 1.8em;
+    padding-left: 50px;
+}
+
+a:link,
+a:visited {
+    color: #ec5a29;
+}
+
+/* Class formatting below */
+.chinese-characters {
+    font-family: hwkt;
+    font-size: 2em;
+}
+
+.red-display {
+    color: #ec5a29;
+    font-family: aesthico;
+    font-size: 1em;
+    list-style-type: none; /* Making the bullets disappear from the list items */
+    float: left; /* Making the navigation bar list items appear horizontal */
+}
+
+p.half-width {
+    width: 53%;
+    font-size: 1.5em;
+    background-color: #fed307;
+}
+
+.red-title {
+    color: #ec5a29; /* Styling for the "Have you seen these ingredients?" section */
+    font-family: aesthico;
+    font-size: 1.5em;
+    padding-top: 85px;
+    padding-left: 260px;
+}
+
+.volume-top {
+    height: 100px; /* Size adjustment */
+    padding-left: 800px; /* Position adjustment */
+    position: absolute;
+    top: 860px;
+}
+
+.submit-button {
+    height: 140px; /* Size adjustment */
+    position: absolute;
+    top: 1224px; /* Position adjustment */
+    padding-left: 30px;
+}
+
+.coming-soon {
+    font-family: 'work sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+    padding-left: 300px;
+}
