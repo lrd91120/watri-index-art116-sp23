@@ -149,7 +149,7 @@ p.half-width {
     color: #ec5a29; /* Styling for the "Have you seen these ingredients?" section */
     font-family: aesthico;
     font-size: 1.5em;
-    padding-top: 85px;
+    padding-top: 100px;
     padding-left: 260px;
 }
 
@@ -161,10 +161,17 @@ p.half-width {
 }
 
 .submit-button {
-    height: 140px; /* Size adjustment */
+    height: 130px; /* Size adjustment */
     position: absolute;
-    top: 1224px; /* Position adjustment */
-    padding-left: 30px;
+    top: 1070px; /* Position adjustment */
+    padding-left: 33px;
+}
+
+.contact{
+    height: 130px; /* Size adjustment */
+    position: absolute;
+    top: 1220px; /* Position adjustment */
+    padding-left: 33px;
 }
 
 .coming-soon {
